@@ -48,7 +48,7 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
 <br> 
 
 4. Predict Survival
-* Test various ML Classifier algorithms to predict Survival
+    * Test various ML Classifier algorithms to predict Survival
         * Logistic Regression
         * Support Vector 
         * Decision Tree 
@@ -59,7 +59,6 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
     * Using MLP to predict Survival
     * Formatting output for submission
 <br> 
-<br>
 
 ### Required Libraries
 * [`numpy`](http://www.numpy.org/)
