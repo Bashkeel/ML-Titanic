@@ -21,18 +21,20 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
 <br>
 
  
-### Steps taken in this Notebook
-1. Data Wrangling
-    * Loading the datasets with Pandas
-    * Visualizing missing data with MissingNo
+### Steps taken in this Notebook 
+1. Data Wrangling 
+    * Loading the datasets with `pandas`
+    * Visualizing missing data with `missingno` 
     * Checking correlation between survival and individual factors  
 <br> 
+
 2. Feature Engineering
     * Feature engineering of new columns
         * Passenger Title
         * Family Size
         * Travelling Alone?  
 <br> 
+
 3. Imputing Missing Data Values
     * Randomizing the two missing Embarked values
     * Imputing the missing fare value using the average fare paid by each Pclass
@@ -43,9 +45,10 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
         * Decision Tree
         * Bagging
     * Using Multilayer Perceptron (MLP) to predict the missing age values
-<br> <br>
+<br> 
+
 4. Predict Survival
-    * Test various ML Classifier algorithms to predict Survival
+* Test various ML Classifier algorithms to predict Survival
         * Logistic Regression
         * Support Vector 
         * Decision Tree 
@@ -53,16 +56,16 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
         * Adaptive Boosting 
         * Multilayer Perceptron (MLP) 
         * K-Nearest Neighbours (KNN) 
-
     * Using MLP to predict Survival
     * Formatting output for submission
 <br> 
 <br>
+
 ### Required Libraries
-* [numpy](http://www.numpy.org/)
-* [pandas](https://pandas.pydata.org/)
-* [missingno](https://github.com/ResidentMario/missingno)
-* [seaborn](http://seaborn.pydata.org/)
-* [matplotlib](https://matplotlib.org/)
-* [random](https://docs.python.org/2/library/random.html)
-* [scikit-Learn](http://scikit-learn.org)
+* [`numpy`](http://www.numpy.org/)
+* [`pandas`](https://pandas.pydata.org/)
+* [`missingno`](https://github.com/ResidentMario/missingno)
+* [`seaborn`](http://seaborn.pydata.org/)
+* [`matplotlib`](https://matplotlib.org/)
+* [`random`](https://docs.python.org/2/library/random.html)
+* [`scikit-Learn`](http://scikit-learn.org)
